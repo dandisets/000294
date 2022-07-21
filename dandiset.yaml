@@ -13,9 +13,36 @@ acknowledgement: This study was supported by the ETH Zurich Postdoctoral Fellows
   the Swiss government’s ETH Board of the Swiss Federal Institutes of Technology (TD,
   DM, MZ, AJ, HM, WVG)
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 18173614543
+  numberOfFiles: 2
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectricalSeries
+  - ProcessingModule
+  - CurrentClampSeries
+  - CurrentClampStimulusSeries
+  - ElectrodeGroup
 citation: Buccino, Alessio Paolo; Damart, Tanguy; Bartram, Julian; Mandge, Darshan;
   Xue, Xiaohan; Zbili, Mickael; Gänswein, Tobias; Jaquier, Aurelien; Emmenegger, Vishalini;
   Markram, Henry; Hierlemann, Andreas; Van Geit, Werner (2022) A multi-modal fitting
@@ -33,60 +60,114 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: EPFL - Blue Brain Project
+    schemaKey: Affiliation
+  identifier: 0000-0003-2175-7304
   includeInCitation: true
   name: Damart, Tanguy
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  identifier: 0000-0001-7513-1716
   includeInCitation: true
   name: Bartram, Julian
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: EPFL - Blue Brain Project
+    schemaKey: Affiliation
+  identifier: 0000-0002-7104-4604
   includeInCitation: true
   name: Mandge, Darshan
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  identifier: 0000-0001-5398-2368
   includeInCitation: true
   name: Xue, Xiaohan
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: EPFL - Blue Brain Project
+    schemaKey: Affiliation
+  identifier: 0000-0002-7377-2605
   includeInCitation: true
   name: Zbili, Mickael
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  identifier: 0000-0003-0323-6767
   includeInCitation: true
   name: Gänswein, Tobias
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: EPFL - Blue Brain Project
+    schemaKey: Affiliation
   includeInCitation: true
   name: Jaquier, Aurelien
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  identifier: 0000-0003-3195-7772
   includeInCitation: true
   name: Emmenegger, Vishalini
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: EPFL - Blue Brain Project
+    schemaKey: Affiliation
+  identifier: 0000-0001-6164-2590
   includeInCitation: true
   name: Markram, Henry
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/05a28rw58
+    name: ETH Zurich
+    schemaKey: Affiliation
+  identifier: 0000-0002-3838-2468
   includeInCitation: true
   name: Hierlemann, Andreas
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/02s376052
+    name: EPFL - Blue Brain Project
+    schemaKey: Affiliation
+  identifier: 0000-0002-2915-720X
   includeInCitation: true
   name: Van Geit, Werner
-  roleName: []
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2022-07-15T11:27:46.490921+00:00'
 description: 'This dataset contains simultaneous intracellular whole-cell patch clamp
