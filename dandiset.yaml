@@ -9,9 +9,9 @@ access:
 acknowledgement: This study was supported by the ETH Zurich Postdoctoral Fellowship
   19-2 FEL-17 (APB), the ERC Advanced Grant 694829 "neuroXscales" (JB, XX, TG, VE,
   AH), the China Scholarship Council (XX), and by funding to the Blue Brain Project,
-  a research center of the École polytechnique fédérale de Lau- sanne (EPFL), from
-  the Swiss government’s ETH Board of the Swiss Federal Institutes of Technology (TD,
-  DM, MZ, AJ, HM, WVG)
+  a research center of the École polytechnique fédérale de Lausanne (EPFL), from the
+  Swiss government’s ETH Board of the Swiss Federal Institutes of Technology (TD,
+  DM, MZ, AJ, HM, WVG).
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -45,7 +45,7 @@ assetsSummary:
   - ElectrodeGroup
 citation: Buccino, Alessio Paolo; Damart, Tanguy; Bartram, Julian; Mandge, Darshan;
   Xue, Xiaohan; Zbili, Mickael; Gänswein, Tobias; Jaquier, Aurelien; Emmenegger, Vishalini;
-  Markram, Henry; Hierlemann, Andreas; Van Geit, Werner (2022) A multi-modal fitting
+  Markram, Henry; Hierlemann, Andreas; Van Geit, Werner (2023) A multi-modal fitting
   approach to construct single-neuron models with patch-clamp and high-density microelectrode
   arrays (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000294/draft
 contributor:
@@ -169,6 +169,7 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- {}
 dateCreated: '2022-07-15T11:27:46.490921+00:00'
 description: 'This dataset contains simultaneous intracellular whole-cell patch clamp
   and extracellular high-density microelectrode array (HD-MEA) recordings.
