@@ -54,7 +54,7 @@ citation: Buccino, Alessio Paolo; Damart, Tanguy; Bartram, Julian; Mandge, Darsh
   Xue, Xiaohan; Zbili, Mickael; Gänswein, Tobias; Jaquier, Aurelien; Emmenegger, Vishalini;
   Markram, Henry; Hierlemann, Andreas; Van Geit, Werner (2026) A multi-modal fitting
   approach to construct single-neuron models with patch-clamp and high-density microelectrode
-  arrays (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000294/draft
+  arrays (Version 0.260528.0854) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000294/0.260528.0854
 contributor:
 - affiliation:
   - identifier: https://ror.org/05a28rw58
@@ -204,24 +204,38 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-07-15T11:27:46.490921+00:00'
+datePublished: '2026-05-28T08:54:07.161426+00:00'
 description: "This dataset contains simultaneous intracellular whole-cell patch clamp
   and extracellular high-density microelectrode array (HD-MEA) recordings.\nIt includes
   data from two files, corresponding to two recorded neurons. Each NWB file contains
   several runs of 8 eCode protocols, with syncronized intracellular voltages, stimulus
   currents, and extracellular voltages."
+doi: 10.48324/dandi.000294/0.260528.0854
 ethicsApproval:
 - identifier: Cantonal Veterinary Office of Basel-Stadt (protocol number not specified)
   schemaKey: EthicsApproval
-id: DANDI:000294/draft
+id: DANDI:000294/0.260528.0854
 identifier: DANDI:000294
 keywords:
 - HD-MEA, patch-clamp, multimodal
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000294/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000294/0.260528.0854/assets.yaml
 name: A multi-modal fitting approach to construct single-neuron models with patch-clamp
   and high-density microelectrode arrays
+publishedBy:
+  endDate: '2026-05-28T08:54:07.161426+00:00'
+  id: urn:uuid:066e287c-c833-4f61-9380-9702b0a2ce7d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-28T08:54:07.161426+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:565fc2f8-98ef-48fb-afb0-58aa3f0c1d21
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: A Multi-Modal Fitting Approach to Construct Single-Neuron Models with Patch-Clamp
     and High-Density Microelectrode Arrays
@@ -240,6 +254,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
-url: https://dandiarchive.org/dandiset/000294/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000294/0.260528.0854
+version: 0.260528.0854
 wasGeneratedBy: []
